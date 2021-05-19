@@ -10,7 +10,7 @@ BC = 6
 AB=((CA*CA)+(BC*BC))**(0.5)
 
 #Triangle vertices
-A = np.array([0,AC]) 
+A = np.array([0,CA]) 
 C = np.array([0,0]) 
 B = np.array([BC,0]) 
 
