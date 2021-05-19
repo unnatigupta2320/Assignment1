@@ -151,47 +151,11 @@ Construct an isosceles right angeled $\triangle ABC$  right angled at $C$ such t
 $AC$ = 6 .
 %
 \section{SOLUTION}
-As $\triangle ABC$ is an isosceles triangle, therefore:
+As $\triangle ABC$ is an isosceles triangle, therefore, the vertices are:
 \begin{align}
 \vec{C} = \myvec{0\\0},
 \vec{A} = \myvec{6\\0}, 
 \vec{B} = \myvec{0\\6}
-\end{align}
-Then,
-\begin{align}
-\norm{\vec{A}-\vec{C}}^2 = \norm{\vec{A}}^2 =6^2=36   \quad 
-\\
-\norm{\vec{B}-\vec{C}}^2 = \norm{\vec{B}}^2 =6^2=36 \quad 
-\end{align}
-
-Now,
-\begin{align}
-\norm{\vec{A}-\vec{B}}^2 &= ({\vec{A}-\vec{B}})^T({\vec{A}-\vec{B}})
-\\
-&= \vec{A}^T\vec{A}+\vec{B}^T\vec{B}-\vec{A}^T\vec{B} - \vec{B}^T\vec{A}
-\\
-&= \norm{\vec{A}}^2 + \norm{\vec{B}}^2 - 2\vec{A}^T\vec{B} \quad \brak{\because \vec{A}^T\vec{B} = \vec{B}^T\vec{A} } 
-\\
-&= \norm{\vec{A}}^2 + \norm{\vec{B}}^2  \quad \brak{\because \vec{B}^T\vec{A}=0}
-\\
-&= 36+36=72
-\end{align}
-Also,
-\begin{align}
-\norm{{\vec{A}-\vec{B}}}^2=72
-\end{align}
-Therefore,
-\begin{align}
-AB^2=
-36+36=72
-\\
-\implies AB=\sqrt{72}
-\\
-\implies AB=\pm 6\sqrt{2}
-\end{align}
-So the vertices of $\triangle ABC$ in fig. \ref{fig:right_angle_triangle} are: 
-\begin{align}
-\vec{B} = \myvec{0\\6}, \vec{C} = \myvec{0\\0}, \vec{A} = \myvec{6\\0}
 \end{align}
 Now, Lines $AB$ , $BC$ and $CA$ Can be plotted
 using these coordinates to form an isosceles $\triangle ABC$.
